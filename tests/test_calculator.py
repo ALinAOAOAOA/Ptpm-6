@@ -1,5 +1,7 @@
 import sys
-sys.path.append("D:/PTPM/PR6/Ptpm-6")  
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), ".."))  
+
 from calculator import add, subtract, multiply, divide
 import pytest
 
