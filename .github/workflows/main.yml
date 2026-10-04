@@ -31,4 +31,4 @@ jobs:
           webnook: ${{ secrets.SLACK_WEBHOOK }}
           webhook-type: incoming-webhook
           payload: |
-            text: " Тесты в ${{ github.repository }}: ${{job.status}}"
+            text: "Тесты в ${{ github.repository }}: ${{ job.status }}"
